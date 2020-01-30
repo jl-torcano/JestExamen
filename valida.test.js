@@ -7,7 +7,7 @@ describe('testeo edad',()=>{
 		expect(valida(69)).toBe(false);
 	});
 	it('Edad negativa',()=>{
-		expect(valida(-9)).toBe(false);
+		expect(valida(-9)).toThrow('La edad tiene que ser positiva');
 
 	});
-})
+});

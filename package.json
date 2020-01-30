@@ -1,0 +1,15 @@
+{
+  "name": "pruebasexamenjl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nivelAcceso.js",
+  "scripts": {
+    "test": "jest",
+    "test:covarage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

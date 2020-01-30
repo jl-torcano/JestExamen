@@ -1,8 +1,7 @@
 function valida(edad){
 	
         if(edad<0){
-
-            return false;
+        	throw new Error('La edad tiene que ser positiva');
         }else if(edad>0&&edad<18){
             
             return false;
